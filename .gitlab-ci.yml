@@ -28,7 +28,7 @@ build-job:       # This job runs in the build stage, which runs first.
     - echo "Compile complete."
 
 mirror:
-  stage: build
+  stage: mirror
   script:
     - git config credential.helper "/bin/sh -c 'echo username=$user && echo password=$pwd'"
     #- git config --global user.name $user
