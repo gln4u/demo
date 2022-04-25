@@ -15,9 +15,6 @@
 variables:
   GIT_UPSTREAM: https://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@github.com/gln4u/demo.git
 
-
-
-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
 stages:          # List of stages for jobs, and their order of execution
   - build
   - mirror
